@@ -1,0 +1,29 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: red; 
+    padding: 10px;
+    border: 10px solid black;
+} */
+
+.container{
+    width: 100px;
+    height: 300px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+/*
+border-box로 바꾸면 보더와 패딩까지를 다 합쳐서
+지정한 width와 height로 만든다.
+*/
+*{
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
