@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    height: 100vh;    
+}
+
+.item{
+    flex-basis: 400px;
+    /* 기본값 1, 줄어들 수 있다는 의미. */
+    /* flex-shrink: 1; */
+
+    /* 0, 줄어들지 않는다. */
+    flex-shrink: 0;
+}
+
+.box1 {
+    background-color: #2980b9;
+    flex-grow: 1;
+}
+
+.box2{
+    background-color: #16a085;
+    flex-grow: 2;
+}
+
+.box3{
+    background-color: #e74c3c;
+    flex-grow: 3;
+}
+
+body{
+    color: white;
+}

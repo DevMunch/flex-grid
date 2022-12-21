@@ -1,0 +1,49 @@
+/* @media (max-width: 800px){
+    body{
+        background-color: red;
+    }
+} */
+
+/* @media(min-width: 500px) and (max-width: 1000px){
+    body{
+        background-color: red;
+    }
+} */
+
+li{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    width: 100px;
+}
+
+/* 
+    기본값 all 모든 장치를 의미
+    @media all and (max-width: 500px){
+    li{
+        display:block;
+    }
+} */
+
+/* screen 컴퓨터 화면 스마트 기기 화면을 의미*/
+@media screen and (max-width: 500px){
+    li{
+        display:block;
+    }
+}
+
+/* only 미디어 쿼리를 지원하는 브라우저에서만 미디어 쿼리를 해석한다.*/
+@media only screen and (max-width: 500px){
+    li{
+        display: block;
+    }
+}
+
+/*
+    지금 입력된 것들을 반대로 해석한다.
+*/
+@media not screen and (max-width: 500px){
+    li{
+        display: block;
+    }
+}

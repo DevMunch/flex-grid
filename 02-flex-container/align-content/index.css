@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    height: 100vh;
+    /*
+        align-content
+        - flex-wrap이 wrap이어야 하고 아이템이 여러줄로 배치되어 있을때 적용되는 속성
+    */
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.item{
+    width: 500px;
+    /* height: 100px; */
+}
+
+.box1 {
+    background-color: #2980b9;
+}
+
+.box2{
+    background-color: #16a085;
+}
+
+.box3{
+    background-color: #e74c3c;
+}
+
+body{
+    color: white;
+}

@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    height: 100vh;
+
+    /*  */
+    
+}
+
+.item{
+    /* flex-basis: 100px; */
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: #2980b9;
+}
+
+.box2{
+    background-color: #16a085;
+}
+
+.box3{
+    background-color: #e74c3c;
+}
+
+body{
+    color: white;
+}

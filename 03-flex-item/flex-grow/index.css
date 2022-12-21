@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    height: 100vh;    
+}
+
+/*
+    남는 빈 공간을 grow의 비율로 나눠가진다.
+*/
+.item{
+    flex-basis: 100px;
+    /* flex-grow: 1; */
+}
+
+.box1 {
+    background-color: #2980b9;
+    flex-grow: 1;
+}
+
+.box2{
+    background-color: #16a085;
+    flex-grow: 2;
+}
+
+.box3{
+    background-color: #e74c3c;
+    flex-grow: 3;
+}
+
+body{
+    color: white;
+}

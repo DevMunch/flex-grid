@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    height: 100vh;    
+}
+
+.item{
+    /*flex-grow, flex-shrink, flex-basis 순서인 단축속성*/
+    /* flex: 1 0 100px; */
+
+    /*flex-shrink 속성을 생략시 기본값인 1로 지정된다.*/
+    /*flex: 1 auto; == flex: 1 1 auto; 와 동일*/
+    
+    flex:1; /*flex: 1 1 0; 와 동일*/
+}
+
+.box1 {
+    background-color: #2980b9;
+    flex-grow: 1;
+}
+
+.box2{
+    background-color: #16a085;
+    flex-grow: 2;
+}
+
+.box3{
+    background-color: #e74c3c;
+    flex-grow: 3;
+}
+
+body{
+    color: white;
+}

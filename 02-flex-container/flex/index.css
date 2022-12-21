@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    height: 100vh; /*화면전체를 높이로 가진다.*/
+    
+    /* 
+        컨테이너의 가로 세로 처음 끝을 지정.
+        flex-direction: row;기본값 가로
+
+        아이템이 컨테이너의 사이즈보다 커질때 줄바꿈을 할지 정한다.
+        기본값은 줄바꿈을 하지않는 nowrap으로 아이템들이 찌그러진다.
+        축의방향이 row로 가로방향이기 때문에 width 속성의 크기가 무시되고 찌그러진다.
+        flex-wrap: wrap-reverse;
+
+        flex 단축속석 한번에 지정한다.
+        flex-flow: row wrap; 
+    */
+
+    /* 기본축의 정렬을 지정한다.*/
+    justify-content: space-evenly;
+    
+}
+
+.item{
+    width: 350px;
+}
+
+.box1 {
+    background-color: #2980b9;
+}
+
+.box2{
+    background-color: #16a085;
+}
+
+.box3{
+    background-color: #e74c3c;
+}

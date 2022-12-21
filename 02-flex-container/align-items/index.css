@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    height: 100vh;
+
+    /* 기본 축이 low이므로 세로방향을 기준으로 정렬 */
+    /* align-items: baseline; */
+    
+    /*가로를 센터로*/
+    justify-content: cneter;
+    /*세로를 센터로*/
+    align-items: center;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: #2980b9;
+}
+
+.box2{
+    background-color: #16a085;
+}
+
+.box3{
+    background-color: #e74c3c;
+}
+
+body{
+    color: white;
+}
