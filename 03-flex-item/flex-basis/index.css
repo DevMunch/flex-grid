@@ -2,13 +2,22 @@
     display: flex;
     height: 100vh;
 
-    /*  */
+    /*  
+        flex-basis
+        - 나타내야할 최소 크기를 나타낸다.
+        - 기본값은 가로
+        - basis:100px은 가로 크기가 최소 100이상.
+
+        width
+        - 100px로 설정하면 이 크기를 넘어도 강제로
+          100px로 고정된다.
+    */
     
 }
 
 .item{
-    /* flex-basis: 100px; */
-    width: 100px;
+    flex-basis: 100px;
+    /* width: 100px; */
     height: 100px;
 }
 

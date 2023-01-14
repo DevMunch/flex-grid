@@ -6,7 +6,7 @@
     /* align-items: baseline; */
     
     /*가로를 센터로*/
-    justify-content: cneter;
+    justify-content: center;
     /*세로를 센터로*/
     align-items: center;
 }

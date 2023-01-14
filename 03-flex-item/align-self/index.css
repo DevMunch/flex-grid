@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    height: 100vh;    
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+
+}
+
+/*
+    align-items
+    - 컨테이너에서 아이템 전체의 교차축 정렬을 지정
+
+    align-self
+    - 아이템 자기 자신 하나만 교차축 정렬
+    - 교차축에서 개별 아이템의 정렬을 지정
+    - align-items 속성보다 우선순위가 높다!
+    - 가질수 있는 속성은 align-items와 같고 기본값은 align-items의
+    속성을 상속 받는 auto로 되어있다.
+*/
+.box1 {
+    background-color: #2980b9;
+}
+
+.box2{
+    background-color: #16a085;
+    align-self: flex-end; /*우선순위가 더 높다. */
+}
+
+.box3{
+    background-color: #e74c3c;
+}
+
+body{
+    color: white;
+}

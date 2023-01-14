@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 100px;
+
+    
+}
+
+.box2{
+    /* 끝점을 기준으로 번호를 매긴다.
+    2번라인부터 4번라인까지를 box2가 차지한다.*/
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.box1{
+    background-color: #16a085;
+}
+.box2{
+    background-color: #2980b9;
+}
+.box3{
+    background-color: #f39c12;
+}
+.box4{
+    background-color: #e74c3c;
+}
+.box5{
+    background-color: #9b59b6;
+}
+.box6{
+    background-color: #2c3e50;
+}

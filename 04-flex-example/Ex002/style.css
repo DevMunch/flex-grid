@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: #ecf0f1;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+li{
+    background-color: #95a5a6;
+    padding: 0 0.5em;
+    border-radius: 7px;
+    flex-basis: 100px; /* 기본값 100px 이 이하로는 줄지않는다. */
+    text-align: center;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}

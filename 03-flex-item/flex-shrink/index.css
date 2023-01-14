@@ -12,19 +12,22 @@
     flex-shrink: 0;
 }
 
+/*
+    만일 첫번째 박스만 고정하고 싶다면 첫번째 박스에만 flex-shrink: 0;을 주면된다.
+*/
 .box1 {
     background-color: #2980b9;
-    flex-grow: 1;
+
 }
 
 .box2{
     background-color: #16a085;
-    flex-grow: 2;
+
 }
 
 .box3{
     background-color: #e74c3c;
-    flex-grow: 3;
+
 }
 
 body{

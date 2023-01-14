@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px; */
+    grid-template-columns: repeat(3, 100px); /* 100px 씩 3개의 열을 생성 */
+    grid-template-rows: repeat(2, 100px); /* 100px 씩 2개의 행을 생성 */
+}
+
+.box1{
+    background-color: #16a085;
+}
+.box2{
+    background-color: #2980b9;
+}
+.box3{
+    background-color: #f39c12;
+}
+.box4{
+    background-color: #e74c3c;
+}
+.box5{
+    background-color: #9b59b6;
+}
+.box6{
+    background-color: #2c3e50;
+}

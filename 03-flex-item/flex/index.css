@@ -4,13 +4,18 @@
 }
 
 .item{
-    /*flex-grow, flex-shrink, flex-basis 순서인 단축속성*/
-    /* flex: 1 0 100px; */
-
-    /*flex-shrink 속성을 생략시 기본값인 1로 지정된다.*/
-    /*flex: 1 auto; == flex: 1 1 auto; 와 동일*/
+    /*
+        flex-grow, flex-shrink, flex-basis 순서인 단축속성
+        flex: 1 0 100px; 
+        => flex-grow : 1 flex-shrink : 0    flex-basis : 100px
+        =>  1:1:1 비율    기본너비 이하로 줄지않음  기본너비는 100px
     
-    flex:1; /*flex: 1 1 0; 와 동일*/
+        flex-shrink 속성을 생략시 기본값인 1로 지정된다.
+        flex: 1 auto; => flex: 1 1 auto; 와 동일
+        flex: 1; => flex: 1 1 0; 와 동일
+    */
+    
+    flex:1;
 }
 
 .box1 {

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    /* row 행축을 따라 자동으로 맞춘다. => 기본값이다.*/
+    /* grid-auto-flow: row; */
+    grid-auto-flow: column;
+    
+    /* 넘어간 친구들의 값을 지정해준다.*/
+    grid-auto-columns: 200px;
+}
+
+.box1{
+    background-color: #16a085;
+}
+.box2{
+    background-color: #2980b9;
+}
+.box3{
+    background-color: #f39c12;
+}
+.box4{
+    background-color: #e74c3c;
+}
+.box5{
+    background-color: #9b59b6;
+}
+.box6{
+    background-color: #2c3e50;
+}

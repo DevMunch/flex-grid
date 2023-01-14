@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 100px;
+}
+
+.box2{
+    /* 
+        self가 붙은 속성들은 자기 하나에만 적용된다. 
+        어라운드, 비트윈은 불가능.
+    */
+    /* justify-self: center; */
+    /* align-self: center; */
+
+    /*justify-self align-self 속성을 한번에 지정*/
+    /* place-self: center; */
+    place-self: center end;
+}
+
+
+.box1{
+    background-color: #16a085;
+}
+.box2{
+    background-color: #2980b9;
+}
+.box3{
+    background-color: #f39c12;
+}
+.box4{
+    background-color: #e74c3c;
+}
+.box5{
+    background-color: #9b59b6;
+}
+.box6{
+    background-color: #2c3e50;
+}
